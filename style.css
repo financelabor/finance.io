@@ -1,0 +1,39 @@
+h2{
+	padding-top: 20px;
+  padding-bottom: 20px;
+  text-align:center;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 120%
+}
+#customers {
+  font-family: 'Tajawal', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+#customers tr {
+	text-align: center;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAFF0;
+  color: white;
+}
+.center {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
